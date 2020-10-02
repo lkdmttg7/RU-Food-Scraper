@@ -7,6 +7,9 @@ It then saves the results into a new file.
 
 Official website reports wonky numbers for certain fields, so only scraping calories, serving size, and ingredients for now.
 
+<h3>Dependencies</h3>
+- BeautifulSoup
+
 <h3>Format</h3>
 Enable indentation with the `--fancy` flag.
 
@@ -90,5 +93,4 @@ Use without the `--dicts` flag to organize with arrays like the old food API doe
 ]
 ```
 
-<h3>Dependencies</h3>
-- BeautifulSoup
+
