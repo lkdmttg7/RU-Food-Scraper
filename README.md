@@ -1,11 +1,13 @@
-Rutgers Nutritional Information Scraper
+
+
+<h1>Rutgers Nutritional Information Scraper</h1>
 
 This repository contains a Web Scraping Script which scrapes the website food.rutgers.edu for menus and nutritional information.
 It then saves the results into a new file.
 
 Official website reports wonky numbers for certain fields, so only scraping calories, serving size, and ingredients for now.
 
-##Format
+<h3>Format</h3>
 Enable indentation with the `--fancy` flag.
 
 Use the `--dicts` flag to organize for easier random access, like so:
@@ -88,5 +90,5 @@ Use without the `--dicts` flag to organize with arrays like the old food API doe
 ]
 ```
 
-###Dependencies
-`BeautifulSoup`
+<h3>Dependencies</h3>
+- BeautifulSoup
